@@ -1,95 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width , initial-scale=1.0">
-    <title> My Portfolio Website </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sbahle Khuzwayo | Professional Portfolio</title>
     <link rel="stylesheet" type="text/css" href="portfolio.css">
 </head>
 
-
 <body>
-        <header> 
-                    <article>
-                        <nav>
-                                
-
-                                
-                        <div class="logo">
-                            <img src="logo.jpg" alt="logo" width="100" height="45" >
-                        </div>
-
-
-                                <ul class="nav-links">
-                                    <li><a href="#home">Home</a></li>
-                                    <li><a href="#About Me">About Me</a></li>
-                                    <li><a href="#Contact Us">Contact Us</a></li>
-
-                                </ul>
-
-                        </nav>
-                        <br>
-                        <video class="video"  autoplay loop controls>
-                            <source src="thrivingForward.mp4" type="video/mp4">
-                        </video>
-                    </article>
-        </header>  
-
-        <main>
-            <h1>Sbahle Khuzwayo</h1>
-           
-            <div class="container">
-                    <div class="text">
-
-                        <p>I previously studied Computer Science, <br>but due to financial constraints,<br>I was unable to complete my studies.</p>
-                        <p class="paragraph2">However, I am deeply passionate about programming,<br> and I believe this bootcamp will be a life-changing opportunity<br> that will help me pursue my dream<br>and build a successful career in tech.</p>
-                     </div>
-                
-                <br>
-                <img class="round-image"  src="myImage.jpeg" alt="myProfileFaceCopy" width="360" height="360">
-            </div>
-            <hr>
-
-        </main>
-        <br>
-        <br>
-        <footer>
-                <div class="address">
-                    <p>&copy;Lake Xanadu estates Dogplum road Midrand 168</p>
+    <header id="home"> 
+        <article>
+            <nav>
+                <div class="logo">
+                    <img src="logo.jpg" alt="Logo" width="100" height="45">
                 </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills & Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <br>
+            <video class="video" autoplay loop controls muted>
+                <source src="thrivingForward.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </article>
+    </header>  
+
+    <main>
+        <section class="hero-container">
+            <h1>Sbahle Teddy Khuzwayo</h1>
+            <h2>Computer Science Student & Software Development Intern Candidate</h2>
+            
+            <div class="container">
+                <div class="text">
+                    <p>
+                        I am a motivated Computer Science student at Tshwane University of Technology who has completed all academic coursework and am currently seeking an internship (Work Integrated Learning / Industry Exposure) opportunity before graduation[cite: 301, 305, 306].
+                    </p>
+                    <p>
+                        I possess practical knowledge of software development, database systems, web development, and mobile computing gained through rigorous academic training and personal engineering projects[cite: 302, 307]. I am eager to apply my technical skills, learn from industry professionals, and contribute meaningfully to real-world software solutions[cite: 303].
+                    </p>
+                </div>
+                <br>
+                <div class="profile-image-wrapper">
+                    <img class="round-image" src="myImage.jpeg" alt="Sbahle Khuzwayo Profile Face Copy" width="360" height="360">
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="about" class="portfolio-section">
+            <h2>Education & Academic Modules</h2>
+            <div class="education-block">
+                <h3>Diploma in Computer Science</h3>
+                <p><strong>Tshwane University of Technology (TUT)</strong> | <em>Coursework Completed (Awaiting Internship Requirement)</em> [cite: 305, 306]</p>
+                
+                <h4>Completed Core Modules:</h4>
+                <ul class="modules-grid">
+                    <li>Internet Programming & Web Computing [cite: 308]</li>
+                    <li>Mobile Computing & Advanced Object-Oriented Programming [cite: 308]</li>
+                    <li>Database Systems & Database Programming [cite: 308]</li>
+                    <li>Software Engineering & Systems Analysis and Design [cite: 308]</li>
+                    <li>Operating Systems & Information Security [cite: 308]</li>
+                    <li>Software Project [cite: 308]</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+
+        <section id="skills" class="portfolio-section">
+            <h2>Technical Skills Stack</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Programming Languages & Frameworks</h3>
+                    <p>Java, SQL, PL/SQL, JavaScript [cite: 310]</p>
+                </div>
+                <div class="skills-category">
+                    <h3>Web Development Stack</h3>
+                    <p>HTML5, CSS3, JSP, Servlets [cite: 311]</p>
+                </div>
+                <div class="skills-category">
+                    <h3>Database Administration & Design</h3>
+                    <p>Oracle Database, Relational Database Design, Complex Query Engineering [cite: 312]</p>
+                </div>
+                <div class="skills-category">
+                    <h3>Developer Workflow Tools</h3>
+                    <p>Git, Version Control (GitHub), NetBeans IDE, Microsoft Office Suite [cite: 313]</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="projects" class="portfolio-section">
+            <h2>Featured Projects & Portfolio</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <h3>Enterprise Oracle Database Architecture Solutions</h3>
+                    <p>Designed and implemented structured relational Oracle database solutions[cite: 312, 316]. Built comprehensive functional backend logic utilizing custom SQL and PL/SQL modules, procedural blocks, database functions, contextual cursors, and automation triggers[cite: 310, 316].</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Full-Stack Java Web Applications</h3>
+                    <p>Engineered comprehensive responsive web applications utilizing an HTML5, CSS3, and JavaScript front-end framework integrated with Java Server Pages (JSP) and robust architecture back-end Servlets with active underlying database connections[cite: 311, 317].</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Object-Oriented Desktop Software Engineering</h3>
+                    <p>Developed standalone applications using Java[cite: 315]. Applied advanced Object-Oriented Programming (OOP) architectures, custom exception handling wrappers, runtime structural data collections, and rigorous user input validation models[cite: 308, 315].</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Personal Portfolio Engine & Active Git Repositories</h3>
+                    <p>Constructed and deployed a personal portfolio platform to manage and host real-world development project builds transparently via source control hosting repositories[cite: 318].</p>
+                    <p><a href="https://github.com/Sbahle Khuzwayo" target="_blank" class="project-link">View My GitHub Portfolio →</a> </p>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="address">
+                <h3>Location</h3>
+                <p>Lake Xanadu Estates, Dogplum Road,</p>
+                <p>Midrand, 1682, South Africa</p>
+            </div>
+
+            <div class="contact-info">
+                <h3>Direct Lines</h3>
+                <p class="phoneNumber">Phone: 072 706 3888 </p>
+                <p class="emailAddress">Email: <a href="mailto:sbahlekhuz2000@gmail.com">sbahlekhuz2000@gmail.com</a> </p>
+                <p class="linkedinLink"><a href="https://www.linkedin.com/in/sbahle-khuzwayo-b7a58423b" target="_blank">Connect on LinkedIn</a> </p>
+            </div>
 
             <div class="social-icons">
-
+                <h3>Social Profiles</h3>
                 <div class="links">
-
                     <div class="quick-links">
-                            <a href="https://twitter.com" target="_blank">T</a>
-                     </div>
-
-                    <div class="quick-links">
-                        <a href="https://facebook.com" target="_blank">F</a>
+                        <a href="https://twitter.com" target="_blank" title="Twitter">T</a>
                     </div>
-
-                <div class="quick-links">
-                <a href="https://instagram.com" target="_blank">I</a>
+                    <div class="quick-links">
+                        <a href="https://facebook.com" target="_blank" title="Facebook">F</a>
+                    </div>
+                    <div class="quick-links">
+                        <a href="https://instagram.com" target="_blank" title="Instagram">I</a>
+                    </div>
                 </div>
-
-                <p class="phoneNumber">Phone: 0727063888</p>
-
-                </div>
-
-              
             </div>
+        </div>
+        <br>
 
-            <div class="map">
-            <iframe title="theMap" src="https://www.google.com/maps/embed?pb=!1m18..."  loading="lazy"></iframe>
-            </div>
-        </footer>
+        <div class="map">
+            <iframe title="Office Location Map" src="https://www.google.com/maps/embed?pb=!1m18..." loading="lazy"></iframe>
+        </div>
+        
+        <p class="copyright-bar">&copy; 2026 Sbahle Teddy Khuzwayo. All Rights Reserved. Available for Internship / WIL Opportunities[cite: 321, 322].</p>
+    </footer>
+
+    <script src="variable.js" type="text/javascript"></script>
 </body>
-
-<script src="variable.js" type="text/javascript">
-
-</script>
-
 </html>
