@@ -1,7 +1,6 @@
 👨‍💻 Sbahle Khuzwayo - Software Developer Portfolio
 ---
-🎓 Candidate Summary
-I am a Diploma in Computer Science student at the Tshwane University of Technology (TUT) who has fully completed all academic modules. I am looking to leverage my academic knowledge in Java, SQL, PL/SQL databases, and frontend development in a professional Software Developer Internship, Graduate Trainee, or Work Integrated Learning (WIL) role.
+🎓 I am a Diploma in Computer Science student at the Tshwane University of Technology (TUT) who has fully completed all academic modules. I am looking to leverage my academic knowledge in Java, SQL, PL/SQL databases, and frontend development in a professional Software Developer Internship, Graduate Trainee, or Work Integrated Learning (WIL) role.
 ---
 I have built A responsive, native frontend single-page web portfolio using semantic HTML5, custom CSS3 architecture, and vanilla JavaScript. This project is a digital resume designed to demonstrate clean coding practices, UI/UX optimization, and DOM event manipulation to prospective employers.
 ---
