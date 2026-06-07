@@ -5,7 +5,7 @@
 I have built A responsive, native frontend single-page web portfolio using semantic HTML5, custom CSS3 architecture, and vanilla JavaScript. This project is a digital resume designed to demonstrate clean coding practices, UI/UX optimization, and DOM event manipulation to prospective employers.
 
 ⚡ Tech Stack & Core Implementation
-Structure:Modern semantic HTML5 tags (<header>, <main>, <section>, <footer>).
+Structure:Modern semantic HTML5 tags (`<header>`, `<main>`, `<section>`, `<footer>`).
 Layout Engine:Custom CSS3 styling built completely with **Flexbox** models, fluid layouts, custom hover states, and seamless scale-up transition metrics.
 Event Loop Logic:Vanilla JavaScript (ES6) handlers executing asynchronous viewport scrolling computations, element event tracking, and programmatically controlled media nodes.
 
