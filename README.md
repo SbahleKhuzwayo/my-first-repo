@@ -1,10 +1,5 @@
-👨‍💻 Sbahle Khuzwayo - Software Developer 
----
-🎓 Computer Science student at the Tshwane University of Technology (TUT) who has fully completed all academic modules.I possess a strong foundation in  Java, SQL, PL/SQL databases, and frontend development.
-
 I built my first repo using semantic HTML5, custom CSS3 architecture, and vanilla JavaScript.
 
-⚡ Tech Stack & Core Implementation
 Structure:semantic HTML5 tags (`<header>`, `<main>`, `<section>`, `<footer>`).
 
 Layout Engine:Custom CSS3 styling built completely with **Flexbox** models, fluid layouts, custom hover states, and seamless scale-up transition metrics.
