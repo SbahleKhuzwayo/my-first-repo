@@ -1,4 +1,4 @@
-I built my first repo portfolio using semantic HTML5, custom CSS3 architecture, and vanilla JavaScript.
+My first repo portfolio uses semantic HTML5, custom CSS3 architecture, and vanilla JavaScript.
 
 Structure:semantic HTML5 tags (`<header>`, `<main>`, `<section>`, `<footer>`).
 
